@@ -1,0 +1,73 @@
+.footer-wrapper{
+
+    background-color: $prime-drk-blue;
+    
+    .footer-card{
+        padding: 20px 0;
+
+        .footer-logos{
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            align-items: self-start;
+            margin: auto;
+            .logo-link{
+                width: 75%;
+                display: block;
+
+            }
+            .social-ref-card{
+                padding-top: 30px;
+                display: inline-block;
+                margin: 0px -5px;
+
+                li{
+                    padding: 10px;
+                    .icon{
+                        color: whitesmoke;
+                        font-size: 25px;
+                    }
+
+                }
+
+                
+
+            }
+        }
+
+       .footer-nav-card{
+            text-align: center;
+
+            .footer-nav-link{
+                li{
+                    display: block;
+                    padding: 10px;
+
+                    .link{
+                        color: whitesmoke;
+                    }
+                
+                }
+
+                
+            }
+
+       
+        } 
+
+        .invite-card{
+            display: flex;
+            justify-content: end;
+            li{
+                display: block;
+                 padding: 20px;
+            }
+
+            .copy-rigts{
+                color: gray;
+            }
+
+        }
+
+    }
+}

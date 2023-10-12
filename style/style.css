@@ -1,0 +1,321 @@
+.header-wrapper {
+  max-width: 100%;
+  position: sticky;
+  z-index: 1000;
+  top: 0;
+  background-color: wheat;
+}
+.header-wrapper .header-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.header-wrapper .header-card .logo-card .logo-link {
+  float: left;
+}
+.header-wrapper .header-card .logo-card .logo-link .logo {
+  padding: 10px;
+}
+.header-wrapper .header-card .nav-card .nav-bar {
+  padding: 10px 0;
+}
+.header-wrapper .header-card .nav-card .nav-bar .nav-link {
+  padding: 10px;
+  color: gray;
+}
+.header-wrapper .header-card .invite-card {
+  width: auto;
+}
+.header-wrapper .header-card .invite-card ul li .button {
+  float: left;
+  color: #fff;
+}
+
+.main-wrapper .hero-wrapper {
+  background-color: #f5f5f5;
+  position: relative;
+  width: 100%;
+}
+.main-wrapper .hero-wrapper .banner-card .banner {
+  width: 50%;
+  position: relative;
+  margin-left: auto;
+  overflow-x: clip;
+}
+.main-wrapper .hero-wrapper .banner-card .banner .background-img {
+  height: auto;
+  -o-object-position: 15% 75%;
+     object-position: 15% 75%;
+  -o-object-fit: none;
+     object-fit: none;
+}
+.main-wrapper .hero-wrapper .banner-card .banner .mobile-imgs {
+  position: absolute;
+  top: -135px;
+  left: 125px;
+}
+.main-wrapper .hero-wrapper .hero-text-card {
+  padding: 150px 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.main-wrapper .hero-wrapper .hero-text-card .hero-content {
+  width: 43%;
+  padding: 50px 0;
+}
+.main-wrapper .hero-wrapper .hero-text-card .hero-content .hero-text p {
+  color: gray;
+}
+.main-wrapper .hero-wrapper .hero-text-card .hero-content .hero-text a {
+  margin-top: 10px;
+}
+.main-wrapper .why-choose-card {
+  padding: 50px 0;
+  background-color: #f3ebeb;
+}
+.main-wrapper .why-choose-card .heading-card {
+  display: flex;
+  flex-flow: column;
+  width: 60%;
+}
+.main-wrapper .why-choose-card .Choosing-details-card .choosing-details .icon {
+  width: 60px;
+}
+.main-wrapper .why-choose-card .Choosing-details-card .choosing-details p {
+  color: gray;
+}
+.main-wrapper .why-choose-card .Choosing-details-card .choosing-details h3 {
+  font-weight: 500;
+}
+.main-wrapper .articals-wrapper {
+  padding: 50px 0;
+}
+.main-wrapper .articals-wrapper .articals-cards .articals {
+  background: whitesmoke;
+  border-radius: 5px;
+}
+.main-wrapper .articals-wrapper .articals-cards .articals .artical-img {
+  width: 100%;
+}
+.main-wrapper .articals-wrapper .articals-cards .articals .artical-text {
+  text-align: initial;
+  padding: 20px;
+}
+
+.footer-wrapper {
+  background-color: #2d314d;
+}
+.footer-wrapper .footer-card {
+  padding: 20px 0;
+}
+.footer-wrapper .footer-card .footer-logos {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: self-start;
+  margin: auto;
+}
+.footer-wrapper .footer-card .footer-logos .logo-link {
+  width: 75%;
+  display: block;
+}
+.footer-wrapper .footer-card .footer-logos .social-ref-card {
+  padding-top: 30px;
+  display: inline-block;
+  margin: 0px -5px;
+}
+.footer-wrapper .footer-card .footer-logos .social-ref-card li {
+  padding: 10px;
+}
+.footer-wrapper .footer-card .footer-logos .social-ref-card li .icon {
+  color: whitesmoke;
+  font-size: 25px;
+}
+.footer-wrapper .footer-card .footer-nav-card {
+  text-align: center;
+}
+.footer-wrapper .footer-card .footer-nav-card .footer-nav-link li {
+  display: block;
+  padding: 10px;
+}
+.footer-wrapper .footer-card .footer-nav-card .footer-nav-link li .link {
+  color: whitesmoke;
+}
+.footer-wrapper .footer-card .invite-card {
+  display: flex;
+  justify-content: end;
+}
+.footer-wrapper .footer-card .invite-card li {
+  display: block;
+  padding: 20px;
+}
+.footer-wrapper .footer-card .invite-card .copy-rigts {
+  color: gray;
+}
+
+@media screen and (max-width: 570px) {
+  .container {
+    padding: 0 25px;
+  }
+  .md-vw-header-wrapper .md-vw-header-card {
+    display: flex;
+    position: relative;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .mobile-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .logo-card .logo-link {
+    float: left;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .logo-card .logo-link .logo {
+    padding: 10px;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .nav-card {
+    display: none;
+    position: absolute;
+    top: 45px;
+    padding: 30px 0 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .nav-card .nav-bar {
+    width: 100%;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .nav-card .nav-bar li {
+    display: block;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .nav-card .nav-bar li a {
+    display: block;
+  }
+  .md-vw-header-wrapper .md-vw-header-card .nav-card .nav-bar .nav-link {
+    padding: 20px;
+  }
+  .md-vw {
+    height: auto;
+  }
+  .md-vw .row .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .md-vw .footer-card .footer-logos {
+    align-items: center;
+  }
+  .md-vw .footer-card .invite-card {
+    justify-content: center;
+  }
+  .md-vw .heading-card {
+    width: 100%;
+    text-align: center;
+  }
+  .md-vw .hero-text-card {
+    position: static !important;
+    padding: 50px 0 !important;
+  }
+  .md-vw .hero-text-card .hero-content {
+    width: 75%;
+    padding: 50px 0;
+    margin: auto;
+  }
+  .md-vw .banner-card .banner {
+    width: 100% !important;
+  }
+  .md-vw .banner-card .banner .mobile-imgs {
+    left: 0 !important;
+  }
+  .why-choose-card .md-vw .Choosing-details-card {
+    margin-top: 50px;
+  }
+}
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.button {
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #30cd79, #2bbcc1);
+  display: inline-block;
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.heading-card h1 {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.row {
+  display: flex;
+  max-width: 100%;
+  padding: 0 10px;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.col {
+  padding: 0 10px;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-2 {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.col-6 {
+  flex: 0 0 36%;
+  max-width: 36%;
+}/*# sourceMappingURL=style.css.map */

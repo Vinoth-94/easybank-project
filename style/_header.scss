@@ -1,0 +1,53 @@
+.header-wrapper{
+    max-width: 100%;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    background-color: wheat;
+    .header-card{
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+
+        .logo-card{
+
+            .logo-link{
+                float: left;
+
+                .logo{
+
+                    padding: 10px;
+
+                }
+            }
+        }
+
+        .nav-card{
+
+            .nav-bar{
+                padding: 10px 0 ;
+
+                .nav-link{
+                    padding: 10px;
+                    color: $sec-gray;
+                }
+            }
+        }
+
+        .invite-card{
+            width: auto;
+            ul{
+                li{
+                    .button{
+                        
+                        float: left;
+                        color: $prime-white;
+
+                    }
+                }
+            }
+        }
+    }
+}

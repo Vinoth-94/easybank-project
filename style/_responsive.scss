@@ -1,0 +1,193 @@
+@media screen and (max-width:570px) {
+
+    .container{
+        padding: 0 25px;
+    }
+    .md-vw-header-wrapper{
+        .md-vw-header-card{
+
+            display: flex;
+            position: relative;
+
+            .mobile-header{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+            }
+
+            .logo-card{
+
+                .logo-link{
+                    float: left;
+    
+                    .logo{
+    
+                        padding: 10px;
+    
+                    }
+                }
+            }
+
+            .nav-card{
+                
+                display: none;
+                position: absolute;
+                top: 45px;
+                padding: 30px 0 0;
+                width: 100%;
+                text-align: center;
+                border-radius: 5px;    
+                background-color: whitesmoke; 
+                margin-top: 20px;
+                .nav-bar{
+                    width: 100%;
+
+                    li{
+                        display: block;
+
+                        a{
+                            display: block;
+
+                        }
+                    }
+
+                    .nav-link{
+                        padding: 20px;
+                    }
+                }
+            }
+
+        }
+
+            
+    }
+
+    .md-vw{
+        .row{
+
+            .col{
+                flex: 0 0 100%;
+                max-width: 100%;
+                text-align: center;
+            }
+
+        }
+
+        .footer-card{
+            .footer-logos {
+                align-items: center;
+            }
+            .invite-card{
+                justify-content: center;
+            }
+        }
+        .heading-card {
+            width: 100%;
+            text-align: center;
+
+        }
+
+
+        .hero-text-card{
+            position: static !important;
+            padding: 50px 0 !important;
+
+            .hero-content{
+
+                width: 75%;
+                padding: 50px 0;
+                margin: auto;
+
+            }
+       
+    
+        }
+        .banner-card{
+
+            .banner{
+                width: 100% !important;
+
+                .mobile-imgs{
+                    left: 0 !important;
+                }
+
+            }
+
+       
+        }
+        height: auto;
+        // display: none;
+    
+            
+
+           
+        
+
+    }
+
+    
+
+    .why-choose-card{
+        .md-vw{
+
+            
+
+            .Choosing-details-card{
+                margin-top: 50px;
+
+                
+
+                
+            }
+        }
+    }
+    
+}
+
+
+// @media screen and (min-width:571px) and (max-width:1200px) {
+
+//     .md-vw{
+//         .hero-text-card{
+//             position: static !important;
+//             padding: 50px 0 !important;
+
+//             .hero-content{
+
+//                 width: 75%;
+//                 padding: 50px 0;
+//                 margin: auto;
+
+//             }
+       
+    
+//         }
+//         .banner-card{
+
+//             .banner{
+//                 width: 100% !important;
+
+//                 .mobile-imgs{
+//                     top: -80px;
+//                     left: 100px;
+//                 }
+
+//             }
+
+       
+//         }
+//         height: auto;
+//         // display: none;
+    
+            
+
+           
+        
+
+//     }
+
+
+
+
+// }
